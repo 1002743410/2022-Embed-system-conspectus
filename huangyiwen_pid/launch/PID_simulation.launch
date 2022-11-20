@@ -1,0 +1,4 @@
+<launch>
+    <include file = "$(find f1tenth_simulator)/launch/simulator.launch" />
+    <node pkg = "huangyiwen_pid" type ="safety_node" name = "safety" output = "screen" />
+</launch>
